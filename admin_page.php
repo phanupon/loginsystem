@@ -4,6 +4,7 @@
 <h1>admin page </h1>
 <div class="container">
 <?php
+//เพื่อป้องการไม่ได้ login เข้ามา
 if($_SESSION['id'] == "")
 {
 echo "Please Login!";
